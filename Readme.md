@@ -8,8 +8,14 @@
 ## Goal of project
 ### To allow newcomers to connect with trainers who specialise in different personal training programs. Allow seasoned veterans to get information on different workouts.
 
+
+# Creating Virtual Environment
+## create virtual environment by using the ## python3 -m venv name_of_environment
+## Activate the environment using the source name_of_environemnt/bin/activate
+## then install packages as required. e.g. pip install flask will install the flask package and its other dependencies.
+
 ## Feature 1
-#### -- To do ---
+#### DarkMode
 
 ## Feature 2
 #### -- To do ---
