@@ -10,9 +10,13 @@
 
 
 # Creating Virtual Environment
-## create virtual environment by using the ## python3 -m venv name_of_environment
-## Activate the environment using the source name_of_environemnt/bin/activate
-## then install packages as required. e.g. pip install flask will install the flask package and its other dependencies.
+## create virtual environment by using the:
+`python3 -m venv name_of_environment`
+## Activate the environment using the:
+`source name_of_environemnt/bin/activate`
+## then install packages as required.
+`e.g. pip install flask`
+will install the flask package and its other dependencies.
 
 ## Feature 1
 #### DarkMode
