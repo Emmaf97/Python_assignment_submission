@@ -1,8 +1,8 @@
 #### I do not own any of the text, images or videos used in this project, They were sourced from unsplash.com and are used purely as a portfolio piece.
 
-#### link to Render Site -- To do ---
+#### Link to Render Site [click here]()
 
-#### Link to GithubRepo -- To do ---
+#### Link to GithubRepo [click here](https://github.com/Emmaf97/Python_assignment_submission)
 
 # Flask Project for Gym Website
 ## Goal of project
