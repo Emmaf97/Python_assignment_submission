@@ -6,15 +6,17 @@
   <title>BodyForge</title>
   <meta name="BodyForge" content="portfolio gym website">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" media="only screen and (max-width: 767px)" href="../css/mobile.css">
-  <link rel="stylesheet" media="only screen and (min-width: 969px)" href="../css/main.css">
-  <link rel="stylesheet" media="only screen and (min-width: 768px) and (max-width:968px)" href="../css/tablet.css">
+  <link rel="stylesheet" media="only screen and (max-width: 767px)" href="../static/css/mobile.css">
+
+  <link rel="stylesheet" media="only screen and (min-width: 969px)" href="../static/css/desktop.css">
+  <link rel="stylesheet" media="only screen and (min-width: 768px) and (max-width:968px)" href="../static/css/tablet.css">
 </head>
 <body>
   <!-- <div id="wrapper"> -->
-    <header>
-        <h1>BodyForge</h1>
-    </header>
+    <section id="base">
+      <header>
+          <h1>BodyForge</h1>
+      </header>
     <nav>
       <ul>
         <li><a href="{{ url_for('index') }}">Home</a></li>
@@ -24,6 +26,7 @@
         <li><a href="{{ url_for('contact') }}">Contact</a></li>
       </ul>
     </nav>
+    </section>
     <main>
       {# (Jinja comment) The block below will be replaced by each of the pages #}
       {% block main %}

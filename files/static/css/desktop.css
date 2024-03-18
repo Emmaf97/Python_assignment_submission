@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+h2{
+    color: red;
+}
+
+/* #index>header,
+#schedulepage>header,
+#trainerspage>header,
+#contactpage>header {
+  grid-area: head;
+  background-color: rgb(57, 5, 177);
+  color: rgb(244, 234, 234);
+  border: solid #33798A 1px;
+  font-weight: bolder;
+  border-radius: 20px;
+} */
+#base>header
+ {
+  grid-area: head;
+  background-color: rgb(57, 5, 177);
+  color: rgb(244, 234, 234);
+  border: solid #33798A 1px;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+#base>nav{
+    grid-area: nav;
+  background-color: #b1f4f8;
+  background-color: #2F6888;
+  font-size: large;
+  border: solid #33798A 1px;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+/* #index>nav,
+#historypage>nav,
+#ticketpage>nav,
+#teampage>nav,
+#contactpage>nav {
+  grid-area: nav;
+  /* background-color: #b1f4f8; */
+  /* background-color: #2F6888;
+  font-size: large;
+  border: solid #33798A 1px;
+  font-weight: bolder;
+  border-radius: 20px; */
+
+/* }  */
