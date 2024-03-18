@@ -1,39 +1,89 @@
-body{
+body {
     background-color: black;
 }
-h2{
+
+h2 {
     color: red;
 }
 
-/* #index>header,
-#schedulepage>header,
-#trainerspage>header,
-#contactpage>header {
-  grid-area: head;
-  background-color: rgb(57, 5, 177);
-  color: rgb(244, 234, 234);
-  border: solid #33798A 1px;
-  font-weight: bolder;
-  border-radius: 20px;
-} */
-#base>header
- {
-  grid-area: head;
-  background-color: rgb(57, 5, 177);
-  color: rgb(244, 234, 234);
-  border: solid #33798A 1px;
-  font-weight: bolder;
-  border-radius: 20px;
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 3%;
+    display: inline;
+    list-style: none;
+    border: solid blue 1px;
+    border-radius: 20px;
+    background-color: white;
 }
-#base>nav{
+
+li::marker {
+    content: none;
+}
+
+a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(57, 5, 177);
+}
+
+#base {
+    display: grid;
+    grid-template-areas: "head" "nav" "main" "foot";
+    grid-gap: 20px;
+    text-align: center;
+    width: 97%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#base>header {
+    grid-area: head;
+    background-color: rgb(57, 5, 177);
+    color: rgb(244, 234, 234);
+    border: solid #33798A 1px;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+#base>nav {
     grid-area: nav;
-  background-color: #b1f4f8;
-  background-color: #2F6888;
-  font-size: large;
-  border: solid #33798A 1px;
-  font-weight: bolder;
-  border-radius: 20px;
+    background-color: #b1f4f8;
+    background-color: #2F6888;
+    font-size: large;
+    border: solid #33798A 1px;
+    font-weight: bolder;
+    border-radius: 20px;
 }
+
+#base>main {
+    grid-area: main;
+    background-color: #fcfcfa;
+    /* background-image: url(../images/bg_cardimg.png); */
+    background-size: 100%;
+    color: rgb(241, 8, 8);
+    border: solid #33798A 1px;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+#base>footer {
+    grid-area: foot;
+    background-color: rgb(57, 5, 177);
+    display: block;
+    color: whitesmoke;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border: solid #33798A 1px;
+    border-radius: 20px;
+}
+
 /* #index>nav,
 #historypage>nav,
 #ticketpage>nav,
@@ -41,7 +91,7 @@ h2{
 #contactpage>nav {
   grid-area: nav;
   /* background-color: #b1f4f8; */
-  /* background-color: #2F6888;
+/* background-color: #2F6888;
   font-size: large;
   border: solid #33798A 1px;
   font-weight: bolder;
