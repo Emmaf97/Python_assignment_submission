@@ -46,7 +46,15 @@ li {
     border-radius: 20px;
     background-color: white;
 }
+.mb-3{
+    margin-left: 3rem !important;
+    margin-right: 4rem !important;
+    margin-bottom: 1rem!important;
+    border: solid 1px red;
+    border-radius:  20px;
+}
 #image-grid {
+    background-color: white;
     margin-bottom: 3vh;
     border-radius: 3vh;
     width: 100%;
@@ -62,11 +70,13 @@ li {
     align-items: center;
 }
 .card-trainer{
-    width: 70%;
+    width: 65%;
     /* float: right; */
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: solid 2px red;
+    border-radius: 20px; */
 }
 .card-trainer-flipped{
     width: 70%;
@@ -75,6 +85,8 @@ li {
     align-items: center;
     justify-content: right;
     float: right;
+    /* border: solid 2px red;
+    border-radius: 15px; */
 }
 /* .card-body{
 padding-left: 15%;
@@ -85,6 +97,8 @@ padding-left: 15%;
 .card-img-top{
     max-width: 70%;
     height:auto;
+    border: solid 2px red;
+    border-radius: 20px;
  }
 .card-dark{
     background-color: black;
@@ -175,12 +189,12 @@ a:visited {
 
 #base>main {
     grid-area: main;
-    background-color: #fcfcfa;
+    /* background-color: #fcfcfa; */
     background-size: 100%;
     color: rgb(241, 8, 8);
-    border: solid #33798A 1px;
+    /* border: solid #33798A 1px; */
     font-weight: bolder;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 #base>footer {
