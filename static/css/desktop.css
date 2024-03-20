@@ -56,10 +56,14 @@ li {
 #image-grid {
     background-color: white;
     margin-bottom: 3vh;
+    margin-top: 3vh;
     border-radius: 3vh;
     width: 100%;
     display: inline-flex;
     flex-wrap: nowrap;
+}
+.slogan{
+    margin: auto;
 }
 .card {
     background-color: #f6f5f5;
@@ -71,29 +75,18 @@ li {
 }
 .card-trainer{
     width: 65%;
-    /* float: right; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: solid 2px red;
-    border-radius: 20px; */
 }
 .card-trainer-flipped{
     width: 70%;
-    /* float: right; */
     display: flex;
     align-items: center;
     justify-content: right;
     float: right;
-    /* border: solid 2px red;
-    border-radius: 15px; */
 }
-/* .card-body{
-padding-left: 15%;
-}
-.card-body-flipped{
-    padding-right: 15%;
-} */
+
 .card-img-top{
     max-width: 70%;
     height:auto;
@@ -189,12 +182,9 @@ a:visited {
 
 #base>main {
     grid-area: main;
-    /* background-color: #fcfcfa; */
     background-size: 100%;
     color: rgb(241, 8, 8);
-    /* border: solid #33798A 1px; */
     font-weight: bolder;
-    /* border-radius: 20px; */
 }
 
 #base>footer {

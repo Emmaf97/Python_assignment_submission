@@ -1,27 +1,17 @@
 {% extends "base.html" %}
 
 {% block main %}
-<h2>Transform Your Body, Elevate Your Life: Your Journey Starts Here!</h2>
-<section id="image-grid" class="border class">
-    <div class="card card-navigation shadow border class">
-        <h2 class="h2-navigation">Schedule</h2>
-        <a class="btn btn-primary" href="schedule.html">Click Here</a>
-    </div>
-    <div class="card card-navigation shadow border class">
-        <h2>Trainers</h2>
-        <a class="btn btn-primary" href="trainers.html">Click Here</a>
-    </div>
-    <div class="card card-navigation shadow border class">
-        <h2>Videos</h2>
-        <a class="btn btn-primary" href="videos.html">Click Here</a>
-    </div>
-    <div class="card card-navigation shadow border class">
-        <h2>Contact</h2>
-        <a class="btn btn-primary"
-            href="contact.html">Click
-            Here</a>
-    </div>
+<!-- <h2>Transform Your Body, Elevate Your Life: Your Journey Starts Here!</h2> -->
+<section class="border class">
+  <h2 class="slogan">Transform Your Body,</h2>
+  <h2 class="slogan">Elevate Your Life:</h2>
+  <h2 class="slogan"> Your Journey Starts Here!</h2>
+
+  <h3>What is BodyForge?</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Ratione id nobis itaque praesentium cumque explicabo delectus aperiam, corrupti ipsa cupiditate nostrum similique quis, culpa eligendi unde quam nemo sunt impedit!</p>
 </section>
+
 <section class="border class">
     <h2>Meet our Trainers</h2>
     <div class="card-trainer mb-3">
@@ -48,6 +38,26 @@
           <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
         </div>
       </div>
+</section>
+<section id="image-grid" class="border class">
+  <div class="card card-navigation shadow border class">
+      <h2 class="h2-navigation">Schedule</h2>
+      <a class="btn btn-primary" href="schedule.html">Click Here</a>
+  </div>
+  <div class="card card-navigation shadow border class">
+      <h2>Trainers</h2>
+      <a class="btn btn-primary" href="{{ url_for('trainers') }}">Click Here</a>
+  </div>
+  <div class="card card-navigation shadow border class">
+      <h2>Videos</h2>
+      <a class="btn btn-primary" href="videos.html">Click Here</a>
+  </div>
+  <div class="card card-navigation shadow border class">
+      <h2>Contact</h2>
+      <a class="btn btn-primary"
+          href="contact.html">Click
+          Here</a>
+  </div>
 </section>
 <section class="border class">
     <p>test index page</p>
