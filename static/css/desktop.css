@@ -29,6 +29,12 @@ h2 {
     font-family: 'Oswald', sans-serif;
 }
 
+.border{
+    border: 1px solid red !important;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
 dl, ol, ul {
     margin-top: 1%;
     margin-bottom: 1rem;
@@ -50,17 +56,20 @@ li {
     margin-left: 3rem !important;
     margin-right: 4rem !important;
     margin-bottom: 1rem!important;
-    border: solid 1px red;
-    border-radius:  20px;
 }
 #image-grid {
     background-color: white;
-    margin-bottom: 3vh;
-    margin-top: 3vh;
     border-radius: 3vh;
     width: 100%;
     display: inline-flex;
     flex-wrap: nowrap;
+}
+#trainer-grid {
+    background-color: white;
+    border-radius: 3vh;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 .slogan{
     margin: auto;
@@ -114,6 +123,38 @@ li {
     margin-top: 3vh;
     margin-bottom: 3vh;
     display: flex;
+    align-items: center;
+}
+.card-navigation.trainer-male{
+    background-image: none;
+    background-color: grey;
+    height:60vh;
+    
+}
+.card-navigation.trainer-female{
+    background-image: none;
+    background-color: grey;
+    height:60vh;
+}
+
+.card > #card-contact{
+    height: 90vh;
+    width: 70vw;
+    border: solid 1px black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;  
+}
+.contact{
+    border-radius: 3vh;
+}
+.p.trainer{
+    color:white
+}
+fieldset {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
     align-items: center;
 }
 
