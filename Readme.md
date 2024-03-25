@@ -1,6 +1,6 @@
 #### I do not own any of the text, images or videos used in this project, They were sourced from unsplash.com and are used purely as a portfolio piece.
 
-#### Link to Render Site [click here]()
+#### Link to Render Site [click here](https://python-assignment-submission.onrender.com)
 
 #### Link to GithubRepo [click here](https://github.com/Emmaf97/Python_assignment_submission)
 
@@ -19,13 +19,13 @@
 will install the flask package and its other dependencies.
 
 ## Feature 1
-#### DarkMode
+#### --- DarkMode ---
 
 ## Feature 2
-#### -- To do ---
+#### --- Form Validation ---
 
 ## Feature 3
-#### -- To do ---
+#### --- To do  ---
 
 ## Feature 4
 #### -- To do ---
