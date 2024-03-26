@@ -1,6 +1,35 @@
 {% extends "base.html" %}
 
 {% block main %}
-<h1>Schedule page</h1>
-<p>test schedule page</p>
+<!-- <h1>Schedule page</h1>
+<p>test schedule page</p> -->
+<h2>Our Current Classes</h2>
+<section class="border class">
+    <div class="card-schedule mb-3">
+        <img src="../static/images/gym-slider.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BodyBuilding:</h5>
+          <p class="card-text">
+            Join our BodyBuilding class to sculpt your physique and build strength like never before. Through a combination of resistance training and targeted exercises, you'll challenge your muscles and achieve the toned, powerful body you've always wanted</p>
+          <p class="card-text"><small class="text-body-secondary"> 8/10 clients recommend this class</small></p>
+        </div>
+      </div>
+      <div class="card-schedule-flipped mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Spin Class</h5>
+          <p class="card-text">Pedal your way to fitness with our exhilarating Spin Class! Designed to boost your cardiovascular endurance and torch calories, this high-energy workout will leave you feeling energized and accomplished. Whether you're a beginner or an experienced cyclist, our motivating instructors will guide you through an immersive ride that will push your limits and bring you closer to your fitness goals.</p>
+          <p class="card-text"><small class="text-body-secondary"> 7/10 clients recommend this class</small></p>
+        </div>
+        <img src="../static/images/gym-slider.jpg" class="card-img-top" alt="...">
+      </div>
+      <div class="card-trainer mb-3">
+        <img src="../static/images/gym-slider.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Deadlifting</h5>
+          <p class="card-text">Master the art of strength with our Deadlifting class. Perfect for individuals looking to build raw power and increase muscle mass, this class focuses on proper technique and form to safely lift heavy weights. Whether you're a seasoned lifter or just starting out, our experienced trainers will help you unlock your full potential and crush your personal records.</p>
+          <p class="card-text"><small class="text-body-secondary"> 9/10 clients recommend this class</small></p>
+        </div>
+      </div>
+</section>
+
 {% endblock %}

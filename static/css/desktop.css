@@ -55,7 +55,12 @@ li {
 .mb-3{
     margin-left: 3rem !important;
     margin-right: 4rem !important;
-    margin-bottom: 1rem!important;
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+}
+iframe{
+    width: 250px;
+    height: 450px;
 }
 #image-grid {
     background-color: white;
@@ -89,6 +94,19 @@ li {
     justify-content: center;
 }
 .card-trainer-flipped{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    float: right;
+}
+.card-schedule{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-schedule-flipped{
     width: 70%;
     display: flex;
     align-items: center;
