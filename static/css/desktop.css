@@ -120,6 +120,15 @@ iframe{
     border: solid 2px red;
     border-radius: 20px;
  }
+ .card-img-about{
+    max-width: 70%;
+    height: 700px;
+    border: solid 2px red;
+    border-radius: 20px;
+    /* margin-left: 50%; */
+    margin-bottom: 4%;
+    margin-top: 4%;
+ }
 .card-dark{
     background-color: black;
     border: solid 1px grey;
@@ -166,8 +175,33 @@ iframe{
 .contact{
     border-radius: 3vh;
 }
-.p.trainer{
-    color:white
+.container.outer{
+    display: flex;
+    align-content: center;
+    justify-content: end;
+    align-items: end;
+    flex-wrap: nowrap;
+}
+.container.inner{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.p{
+    color: white;
+}
+.p.left{
+    margin-right: 0%;
+    max-width: 69%;
+}
+.card-text{
+    color:White
+}
+.h2.float{
+       /* margin-bottom: 20%; */
+       margin-top: 2%;
 }
 fieldset {
     width: 80%;
