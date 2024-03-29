@@ -6,7 +6,7 @@
     <div class="border class" id="card-contact">
         <div id="card-contact-body">
             <fieldset class="text-primary">
-                <!--  -->
+                <legend>Please fill out your details below.</legend>
                 <form id="contact-form" class="mb-3">
                     <div class="mb-3">
                         <label>Query Relates To Dropdown</label>
@@ -47,4 +47,6 @@
         </div>
     </div>
 </section>
+<script src="{{ url_for('static', filename='js/darkMode.js') }}"></script>
+<script src="{{ url_for('static', filename='js/formValidation.js') }}"></script>
 {% endblock %}
