@@ -23,15 +23,15 @@ def videos():
 def contact():
     return render_template("contact.html")
 
-# @app.route("/login")
-# def login():
-#     return render_template("login.html")
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    return render_template("login.html")
 
-# @app.route("/signup")
-# def signup():
-#     return render_template("signup.html")
+@app.route('/signup', methods=['GET', 'POST'])
+def signup():
+    return render_template("signup.html")
 
 
 if __name__ == "__main__":
-     app.run()
+    app.run()
     #  app.run(debug=True, port=8080)
