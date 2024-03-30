@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h1>Login</h1>
+<section id="login">
+    <div class="border class" id="card-login">
+        <div id="card-login-body">
+            <fieldset class="text-primary">
+                <legend>Please enter your details below.</legend>
+                <form id="login-form" class="mb-3">
+                    <div class="mb-3">
+                        <label for="userName" class="form-label">UserName</label>
+                        <input type="text" class="form-control" id="userName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="pass" class="form-label">Password</label>
+                        <input type="text" id="pass" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" value="Submit" class="btn btn-primary">
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+</section>
+<!-- <script src="{{ url_for('static', filename='js/formValidation.js') }}"></script> -->
+{% endblock %}

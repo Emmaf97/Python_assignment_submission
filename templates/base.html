@@ -16,37 +16,25 @@
   <!-- <div id="wrapper"> -->
     <section id="base">
       <header>
-        <!-- <div class="container"> -->
-        <!-- <div class="img div">
-          <img class="logo image border class" src="../static/images/logo_background-small.jpg" alt="gym-trainer-profile-photo">
-        </div> -->
         <div class="text div">
           <h1 class="logo text">BodyForge</h1>
         </div>
-      <!-- </div> -->
       </header>
     <nav>
       <ul>
-        <li><a href="{{ url_for('index') }}">Home</a></li>
-        <li><a href="{{ url_for('schedule') }}">Schedule</a></li>
-        <li><a href="{{ url_for('trainers') }}">Trainers</a></li>
-        <li><a href="{{ url_for('videos') }}">Videos</a></li>
-        <li><a href="{{ url_for('contact') }}">Contact</a></li>
+        <li><a class="btn btn-primary" href="{{ url_for('index') }}">Home</a></li>
+        <li><a class="btn btn-primary" href="{{ url_for('schedule') }}">Schedule</a></li>
+        <li><a class="btn btn-primary" href="{{ url_for('trainers') }}">Trainers</a></li>
+        <li><a class="btn btn-primary" href="{{ url_for('videos') }}">Videos</a></li>
+        <li><a class="btn btn-primary" href="{{ url_for('contact') }}">Contact</a></li>
       </ul>
     </nav>
     <section id="icon">
       <span id="dark-icon" class="material-symbols-outlined">
         clear_night
         </span>
-        <!-- <span class="material-symbols-outlined">
-          check_box_outline_blank
-          </span>
-          <span class="material-symbols-outlined">
-            check_box_outline_blank
-            </span>
-            <span class="material-symbols-outlined">
-              check_box_outline_blank
-              </span> -->
+        <span><a class="btn btn-primary" href="{{ url_for('login') }}">Login</a></span>
+        <span><a class="btn btn-primary" href="{{ url_for('signup') }}">Signup</a></span>
     </section>
     <main>
       {# (Jinja comment) The block below will be replaced by each of the pages #}
@@ -62,6 +50,6 @@
     </section>
     </footer>
   </section>
-  <!-- </div> -->
+  <script src="{{ url_for('static', filename='js/lightMode.js') }}"></script>
 </body>
 </html>
