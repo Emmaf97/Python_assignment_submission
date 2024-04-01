@@ -45,13 +45,13 @@
       <p class="card-text">We offer leading industry standards and techniques to enhance your fitness journey.</p>
     </div>
   </div>
-  <div class="card-trainer-flipped mb-3">
+  <div class="card-schedule-flipped mb-3">
+    <img src="../static/images/gym-slider.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Boxing Classes</h5>
       <p class="card-text">Our coaches are qualified professionals with years of experience and leading industry
         training.</p>
     </div>
-    <img src="../static/images/gym-slider.jpg" class="card-img-top" alt="...">
   </div>
   <div class="card-trainer mb-3">
     <img src="../static/images/gym-slider.jpg" class="card-img-top" alt="...">
@@ -64,24 +64,29 @@
 </section>
 <section id="image-grid" class="bg-dark border class">
   <div class="card card-navigation shadow border class">
+    <div class="inner-card-nav">
     <h2 class="h2-navigation">Schedule</h2>
     <a class="btn btn-primary" href="schedule.html">Click Here</a>
+    </div>
   </div>
   <div class="card card-navigation shadow border class">
+    <div class="inner-card-nav">
     <h2>Trainers</h2>
     <a class="btn btn-primary" href="{{ url_for('trainers') }}">Click Here</a>
   </div>
+  </div>
   <div class="card card-navigation shadow border class">
+    <div class="inner-card-nav">
     <h2>Videos</h2>
     <a class="btn btn-primary" href="videos.html">Click Here</a>
   </div>
+  </div>
   <div class="card card-navigation shadow border class">
+    <div class="inner-card-nav">
     <h2>Contact</h2>
     <a class="btn btn-primary" href="contact.html">Click
       Here</a>
+    </div>
   </div>
-</section>
-<section class="border class">
-  <p>test index page</p>
 </section>
 {% endblock %}

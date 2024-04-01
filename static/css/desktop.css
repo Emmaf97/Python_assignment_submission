@@ -19,6 +19,16 @@ h2 {
     margin-bottom: 3px;
     background-color: red;
 }
+.nav{
+    border-radius: 10px;
+    display: inline-flex;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    width: 200px;
+    background-color: red;
+    justify-content: center;
+}
 .alert-primary{
 color:orangered;
 }
@@ -44,16 +54,10 @@ ul {
 }
 
 li {
-       /* padding-top: 10px; */
-    /* padding-bottom: 10px; */
-    /* padding-left: 20px; */
-    /* padding-right: 20px; */
     margin-left: 3%;
     display: inline;
     list-style: none;
-    /* border: solid blue 1px; */
     border-radius: 20px;
-    /* background-color: white; */
 }
 
 .mb-3 {
@@ -110,6 +114,7 @@ iframe {
     align-items: center;
     justify-content: right;
     float: right;
+    flex-direction: row-reverse;
 }
 
 .card-schedule {
@@ -125,6 +130,7 @@ iframe {
     align-items: center;
     justify-content: right;
     float: right;
+    flex-direction: row;
 }
 
 .card-img-top {
