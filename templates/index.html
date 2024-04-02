@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 
 {% block main %}
+{% if logged_in %}
+        <h2>Welcome, {{ username }}</h2>
+{% endif %}
 <div class="shadow p-3 bg-dark rounded border class">
 <h2 class="slogan">Transform Your Body,</h2>
 <h2 class="slogan">Elevate Your Life:</h2>

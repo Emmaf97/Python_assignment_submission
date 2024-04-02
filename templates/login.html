@@ -7,14 +7,14 @@
         <div id="card-login-body">
             <fieldset class="text-primary">
                 <legend>Please enter your details below.</legend>
-                <form id="login-form" class="mb-3">
+                <form id="login-form" class="mb-3" action="/login" method="POST">
                     <div class="mb-3">
-                        <label for="userName" class="form-label">UserName</label>
-                        <input type="text" class="form-control" id="userName">
+                        <label for="username" class="form-label">UserName</label>
+                        <input type="text" class="form-control" id="username" name="username">
                     </div>
                     <div class="mb-3">
-                        <label for="pass" class="form-label">Password</label>
-                        <input type="text" id="pass" class="form-control">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="text" id="password" class="form-control" name="password">
                     </div>
                     <div class="mb-3">
                         <input type="submit" value="Submit" class="btn btn-primary">
