@@ -1,7 +1,7 @@
 body {
     background-color: rgb(32, 36, 40);
 }
-body-light{
+.body-light{
     background-color: white;
 }
 h2 {
@@ -227,6 +227,9 @@ iframe {
 .p {
     color: white;
 }
+.p-light{
+    color: rgb(32, 36, 40);
+}
 
 .p.left {
     margin-right: 0%;
@@ -235,6 +238,9 @@ iframe {
 
 .card-text {
     color: White
+}
+.card-text-light{
+    color: rgb(32, 36, 40);
 }
 
 .h2.float {
