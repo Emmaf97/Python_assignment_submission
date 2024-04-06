@@ -1,6 +1,11 @@
 {% extends "base.html" %}
 
+
 {% block main %}
+{% if username %}
+    <h2>Welcome, {{ username }}</h2>
+    <a class="btn btn-primary" href="{{ url_for('logout') }}">Logout</a>
+{% endif %}
 <h1>Trainers page</h1>
 <section id="trainer-grid" class="bg-dark border class">
     <div class="card card-navigation trainer-male shadow border class">

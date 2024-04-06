@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% if username %}
+    <h2>Welcome, {{ username }}</h2>
+    <a class="btn btn-primary" href="{{ url_for('logout') }}">Logout</a>
+{% endif %}
+
 {% block main %}
 <h1>Contact us</h1>
 <section id="contact" class="contact">
