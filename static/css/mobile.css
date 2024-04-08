@@ -1,11 +1,34 @@
 body {
     background-color: rgb(32, 36, 40);
 }
-body-light{
+
+.body-light {
     background-color: white;
 }
+
 h2 {
     color: rgb(248, 2, 2);
+}
+
+.logo.text {
+    margin-top: 7%;
+    color: rgb(249, 247, 247);
+    font-size: 3em;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    text-shadow: 0px 0px 10px red,
+        0px 0px 20px red,
+        0px 0px 40px red,
+        0px 0px 60px red,
+        0px 0px 80px red,
+        0px 0px 120px red;
+}
+
+.lightbar {
+    display: none;
+}
+.toplayer{
+   display: none;
 }
 
 .border {
@@ -13,14 +36,16 @@ h2 {
     border-radius: 20px;
     margin-top: 20px;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 10px;
     margin-top: 3px;
     margin-bottom: 3px;
     margin-left: 5px;
     background-color: red;
 }
-.nav{
+
+.nav {
     border-radius: 10px;
     margin-top: 3px;
     margin-bottom: 3px;
@@ -29,8 +54,9 @@ h2 {
     background-color: red;
     justify-content: center;
 }
-.alert-primary{
-color:orangered;
+
+.alert-primary {
+    color: orangered;
 }
 
 dl,
@@ -49,10 +75,12 @@ ul {
 .img.div,
 .text.div {
     grid-area: 1/1;
+    margin: auto;
+    width: 375px;
 }
 
 .logo.text {
-    margin-top: 11%;
+    margin-top: 1%;
 }
 
 li {
@@ -102,9 +130,10 @@ iframe {
 .card-trainer {
     width: 100%;
 }
-.inner-card-nav{
+
+.inner-card-nav {
     margin-top: 50%;
-    margin-bottom:50%;
+    margin-bottom: 50%;
 }
 
 .card-schedule {
@@ -168,6 +197,7 @@ iframe {
     display: flex;
     justify-content: center;
 }
+
 .card>#card-login {
     height: 90vh;
     width: 70vw;
@@ -206,12 +236,21 @@ iframe {
     max-width: 89%;
 }
 
+.p-light {
+    color: rgb(32, 36, 40);
+}
+
 .card-text {
     color: White;
     margin-left: 6%;
     margin-right: 6%;
 }
-.card-title{
+
+.card-text-light {
+    color: rgb(32, 36, 40);
+}
+
+.card-title {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -219,10 +258,12 @@ iframe {
 .h2.float {
     margin-top: 2%;
 }
-.form-row{
-    margin-left:14%
+
+.form-row {
+    margin-left: 14%
 }
-.col-md-6{
+
+.col-md-6 {
     width: 84% !important;
 }
 
@@ -285,39 +326,33 @@ a:visited {
     grid-area: head;
     display: grid;
     color: rgb(246, 2, 2);
-    border: solid #33798A 1px;
     font-weight: bolder;
-    border-radius: 20px;
-    background-size: contain;
-    background-repeat: repeat-x;
-    background-position: center;
-    width: 100%;
+    width: 96%;
     height: 111px;
 }
 
 #base>nav {
     grid-area: nav;
     font-size: large;
-    border: solid #33798A 1px;
     font-weight: bolder;
     border-radius: 20px;
+    width: 96%;
 }
 
 #base>#icon {
     grid-area: icon;
     display: flex;
     width: 54%;
-    margin-left: 27%;
+    margin-left: 23%;
     background-color: #f9fcfc;
     font-size: large;
-    border: solid #33798A 1px;
     font-weight: bolder;
     border-radius: 20px;
 }
 
 #base>main {
     grid-area: main;
-    background-size: 100%;
+    width: 96%;
     color: rgb(241, 8, 8);
     font-weight: bolder;
 }
@@ -326,8 +361,7 @@ a:visited {
     grid-area: foot;
     display: block;
     color: whitesmoke;
-    width: 100%;
-    margin: auto;
+    width: 96%;
     text-align: center;
     border: solid grey 1px;
     border-radius: 20px;
