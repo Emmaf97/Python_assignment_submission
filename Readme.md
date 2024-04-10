@@ -34,4 +34,4 @@ Adding animation to text to add creative css to the project.
 
 ## Feature 4
 #### -- Login/Signup ---
-The user can login(partially complete) and signup(work in progress) using the login and signup forms. As this project doesn't require a database I am using a json file to add and retrieve the data, in order to verify the login credentials and add a new user to the json file via the signup functionality.
+The user can login and signup(partially complete) using the login and signup forms. As this project doesn't require a database I am using a json file to add and retrieve the data, in order to verify the login credentials and add a new user to the json file via the signup functionality.

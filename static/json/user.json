@@ -3,12 +3,15 @@
         {
         "id": 0,
         "username": "JohnDoe",
-        "password": "123*TestUser"
+        "password": "123*TestUser",
+        "loggedin": false
         },
          {
         "id": 1,
         "username":"JaneDoe",
-        "password":"1234Test*User"
+        "password":"1234Test*User",
+        "loggedin": false
+
         }
             ]
 }

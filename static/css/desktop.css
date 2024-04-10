@@ -66,7 +66,7 @@ ul {
         0px 0px 20px red,
         0px 0px 40px red;
 }
-.lightbar {
+.lightbar {                                                             /* Creating lightbar to with glide across text using zindex to place on top of another div*/
     position: absolute;
     top: 13%;
     left: 35%;
@@ -83,7 +83,7 @@ ul {
     animation: animatelightbar 5s linear infinite;
 }
 
-@keyframes animatelightbar {
+@keyframes animatelightbar {                                           /* Creating animation on lightbar. calculating distance the lightbar travels based on size of font.*/
     0%,
     5% {
         transform: scaleY(0) translateX(0);
@@ -100,7 +100,7 @@ ul {
     }
 
 }
-.toplayer{
+.toplayer{                                                          /* Creating toplayer. This covers the text before and after the lightbar.*/
     position: absolute;
     top: 13%;
     left: 35%;
@@ -110,7 +110,7 @@ ul {
     animation: animatetoplayer 10s linear infinite;
 }
 
-@keyframes animatetoplayer{
+@keyframes animatetoplayer{                                        /* Creating animation on toplayer. calculating distance on x axis and covering the text accordingly.*/
     0%,
     2.5% {
         transform: translateX(0);
@@ -149,7 +149,7 @@ li {
     border-radius: 20px;
 }
 
-.mb-3 {
+.mb-3 {                                                           /* using bootstrap library and overwriting the classes that I need to have custom decoration.*/
     margin-left: 3rem !important;
     margin-right: 4rem !important;
     margin-bottom: 1rem !important;
@@ -197,7 +197,7 @@ iframe {
     justify-content: center;
 }
 
-.card-trainer-flipped {
+.card-trainer-flipped {                                     /* Creating flipped card that displays in reverse, used flex and flex-direction to achieve this.*/
     width: 70%;
     display: flex;
     align-items: center;
@@ -354,7 +354,7 @@ fieldset {
     align-items: center;
 }
 
-.material-symbols-outlined {
+.material-symbols-outlined {                                   /* Using google icon to create dark mode icon and styling it based on light or darkmode*/
     font-size: 35px;
     float: inline-end;
     font-variation-settings:
@@ -392,7 +392,7 @@ a:visited {
     color: rgb(57, 5, 177);
 }
 
-#base {
+#base {                                                             /* Creating Grid to display content. Using this layout allowed me to get areas designed much quicker and with much easier naming conventions.*/
     display: grid;
     grid-template-areas: "head" "nav" "icon" "main" "foot";
     grid-gap: 20px;
