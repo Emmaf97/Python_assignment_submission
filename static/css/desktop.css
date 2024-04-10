@@ -60,7 +60,7 @@ ul {
     margin-top: 7%;
     color: rgb(249, 247, 247);
     font-size: 5em;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 0.1em;
     text-shadow: 0px 0px 10px red,
         0px 0px 20px red,
@@ -68,10 +68,10 @@ ul {
 }
 .lightbar {
     position: absolute;
-    top: 10%;
+    top: 13%;
     left: 35%;
     width: 10px;
-    height: 15%;
+    height: 13%;
     border-radius: 10px;
     background-color: white;
     z-index: 2;
@@ -93,16 +93,16 @@ ul {
         transform: scaleY(1) translateX(0);
     }
     90% {
-        transform: scaleY(1) translateX(calc(375px - 10px));
+        transform: scaleY(1) translateX(calc(500px - 10px));
     }
     95%,100% {
-        transform: scaleY(0) translateX(calc(375px - 10px));
+        transform: scaleY(0) translateX(calc(500px - 10px));
     }
 
 }
 .toplayer{
     position: absolute;
-    top: 10%;
+    top: 13%;
     left: 35%;
     width: 30%;
     height: 15%;

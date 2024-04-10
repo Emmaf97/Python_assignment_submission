@@ -6,7 +6,8 @@ import os
 
 app = Flask(__name__)
 # Generate a random secret key of 32 bytes
-
+# app.config['SECRET_KEY'] = secrets.token_hex(32)
+app.secret_key = os.environ.get('SECRET_KEY', 'dev')
 
 login_manager = LoginManager(app)
 
