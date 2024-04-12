@@ -22,6 +22,9 @@ h2 {
     margin-bottom: 3px;
     background-color: red;
 }
+.btn-primary.signup{
+display: none;
+}
 
 .nav {
     border-radius: 10px;
@@ -68,18 +71,14 @@ ul {
 }
 .lightbar {                                                             /* Creating lightbar to with glide across text using zindex to place on top of another div*/
     position: absolute;
-    top: 13%;
+    top: 15%;
     left: 35%;
     width: 10px;
-    height: 13%;
+    height: 10%;
     border-radius: 10px;
     background-color: white;
     z-index: 2;
-    box-shadow: 0px 0px 10px red,
-        0px 0px 20px red,
-        0px 0px 40px red,
-        0px 0px 80px red,
-        0px 0px 120px red;
+    box-shadow: 0px 0px 10px red, 0px 0px 20px red, 0px 0px 40px red, 0px 0px 80px red, 0px 0px 120px red;
     animation: animatelightbar 5s linear infinite;
 }
 
@@ -93,19 +92,19 @@ ul {
         transform: scaleY(1) translateX(0);
     }
     90% {
-        transform: scaleY(1) translateX(calc(500px - 10px));
+        transform: scaleY(1) translateX(calc(500px - 20px));
     }
     95%,100% {
-        transform: scaleY(0) translateX(calc(500px - 10px));
+        transform: scaleY(0) translateX(calc(500px - 20px));
     }
 
 }
 .toplayer{                                                          /* Creating toplayer. This covers the text before and after the lightbar.*/
     position: absolute;
-    top: 13%;
+    top: 12%;
     left: 35%;
-    width: 30%;
-    height: 15%;
+    width: 35%;
+    height: 17%;
     background-color: #202428;
     animation: animatetoplayer 10s linear infinite;
 }
